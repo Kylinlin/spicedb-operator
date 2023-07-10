@@ -14,7 +14,7 @@ metadata:
   name: spicedb-operator
   namespace: spicedb-operator
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: spicedb-operator
